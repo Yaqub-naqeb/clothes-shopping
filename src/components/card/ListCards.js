@@ -9,7 +9,7 @@ const ListCards = ({dt}) => {
      {/*  <img className='image h-[28rem] w-[27rem]' src={`https://fronttask.techeyeco.com${dt.attachment}`} alt="" /> */}
 
 {
-    dt.attachment?<img className='image h-[28rem] w-[27rem]' src={`https://fronttask.techeyeco.com${dt.attachment}`} alt="" />:<img className='image h-[28rem] w-[27rem]' src={Img} alt="" />
+    dt.attachment?<img className='image shadow-md  h-[28rem] w-[27rem]' src={`https://fronttask.techeyeco.com${dt.attachment}`} alt="" />:<img className='image h-[28rem] w-[27rem]' src={Img} alt="" />
 }
       </div>
 

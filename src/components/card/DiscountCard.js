@@ -4,7 +4,7 @@ const DiscountCard = ({dt}) => {
     <div className='card'>
       
      <div className='overflow-hidden'>
-     <img className='image' src={`https://fronttask.techeyeco.com${dt.attachment}`} alt="" />
+     <img className='image shadow-md' src={`https://fronttask.techeyeco.com${dt.attachment}`} alt="" />
      </div>
       <div>
         <p>{dt.productTypeName}</p>

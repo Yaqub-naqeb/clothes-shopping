@@ -11,10 +11,13 @@ const Nav = () => {
 {/*  pages name */}
       <nav className=' ' > 
        <ul className='flex gap-8'>
-        <Link to={`/`}>Home</Link>
-        <Link to={'/newarrival'}>NewArrivals</Link>
-        <Link to={'/discount'}>Discount</Link>
-        <Link to={'/Listofproducts'}>List of Products</Link>
+        <li> <Link to={`/`}>Home</Link></li>
+        <li>        <Link to={'/newarrival'}>NewArrivals</Link></li>
+
+<li><Link to={'/discount'}>Discount</Link></li>
+<li> <Link to={'/Listofproducts'}>List of Products</Link></li>
+
+<li><Link to={'/products'}>Products</Link></li>
        </ul>
       </nav>
       {/* icons */}

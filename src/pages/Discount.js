@@ -9,18 +9,11 @@ const Discount = () => {
   return (
     <div>
 <h1 className='text-center text-2xl font-medium pb-[8rem]'>Dicount</h1>
-
 <div className='grid grid-cols-3 gap-x-10 gap-y-10'>
 {isPending&&<h1>Loading...</h1>}
+{error&&<h1>{error}</h1>}
 {data&&data.map((dt)=><DiscountCard dt={dt}/>)}
-
-
 </div>
-
-
-
-
-
     </div>
   )
 }
