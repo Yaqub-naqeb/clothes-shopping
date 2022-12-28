@@ -3,7 +3,9 @@ import React from 'react'
 const RightPart = () => {
   return (
     <div>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla maxime soluta reprehen</p>
+   <h1 className='font-medium text-xl'>
+   Welcome to the fastest growing Fashion Community
+   </h1>
     </div>
   )
 }

@@ -4,14 +4,12 @@ import Slider from '../components/home/Slider'
 
 const Home = () => {
   return (
-    <div className=' h-[100vh] bg-slate-400'>  
+    <div className=' h-[90vh]   bg-slate-400 flex flex-col   items-center justify-around'>  
 
 
           {/* the hole page  */}
-<div className='flex justify-around align-middle'>
 <RightPart/>
 <Slider/>
-</div>
     </div>
   )
 }

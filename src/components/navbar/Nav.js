@@ -1,18 +1,19 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Nav = () => {
   return (
-    <nav className='flex justify-between  py-8 
-    bg-red-500'>
+    <nav className='flex justify-around  py-8 
+     px-[2rem]'>
       
       {/* name of website */}
-      <div>shopify</div>
+      <div className='font-bold '>shopify</div>
 {/*  pages name */}
       <nav className=' ' > 
        <ul className='flex gap-4'>
-        <li>Home</li>
-        <li>shop</li>
-        <li>products</li>
+        <Link to={`/`}>Home</Link>
+        <Link to={'/newarrival'}>NewArrivals</Link>
+        <Link to={'/discount'}>Discount</Link>
         <li>newArrivals</li>
        </ul>
       </nav>
