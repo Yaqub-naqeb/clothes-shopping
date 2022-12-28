@@ -35,7 +35,7 @@ const {data}=useFetch('https://fronttask.techeyeco.com/api/ClientSide/GetGroup?G
 
 
       
-        {data&&data.map((dt)=> <SwiperSlide>{dt.attachment?<img className='w-[15rem] h-[15rem]' src={`https://fronttask.techeyeco.com${dt.attachment}`} alt="" />:<img className='w-[15rem] h-[15rem]' src={NotFound} alt="" />}</SwiperSlide>)}
+        {data&&data.map((dt)=> <SwiperSlide>{dt.attachment?<img className='w-[15rem] cursor-pointer h-[15rem]' src={`https://fronttask.techeyeco.com${dt.attachment}`} alt="" />:<img className='w-[15rem] h-[15rem]' src={NotFound} alt="" />}</SwiperSlide>)}
  
       
      

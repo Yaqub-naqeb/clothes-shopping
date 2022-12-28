@@ -6,13 +6,7 @@ export const useFetch = (url) => {
   const [error, setError] = useState(null);
 
 
-  const options = {
-    method: 'GET',
-    headers: {
-      'X-RapidAPI-Key': 'be66b1df87mshe46c33b7d7b5e2ap18ae02jsn7132fb194ac1',
-      'X-RapidAPI-Host': 'movies-app1.p.rapidapi.com'
-    }
-  };
+  
   
 
 
@@ -21,7 +15,7 @@ export const useFetch = (url) => {
       setIsPending(true);
 
       try {
-        const res = await fetch(url, options);
+        const res = await fetch(url);
 
         const data = await res.json();
 

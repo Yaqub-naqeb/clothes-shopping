@@ -7,7 +7,7 @@ const Nav = () => {
      px-[2rem] bg-red-300 fixed w-[100vw] z-50'>
       
       {/* name of website */}
-      <div className='font-bold text-2xl '>shopify</div>
+      <div className='font-bold text-3xl price'>shopify</div>
 {/*  pages name */}
       <nav className=' ' > 
        <ul className='flex gap-8'>

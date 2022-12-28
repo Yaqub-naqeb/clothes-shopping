@@ -27,7 +27,6 @@ const Main = () => {
         <Route path='/products/:id' element={<Dynamic/>}/>
         <Route path='/products/:id/:id_2' element={<SecondDynamic/>}/>
         <Route path='/products/:id/:id_2/:id_3' element={<ThirdDynamic/>}/>
-<Route path='/products/:id/test' element={<NotFound/>}/>
 <Route path='*' element={<NotFound/>}/>
 
 
