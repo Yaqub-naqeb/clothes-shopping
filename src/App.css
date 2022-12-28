@@ -5,3 +5,23 @@
   font-family: 'Poppins', sans-serif;
 }
 
+
+
+.card:hover .image{
+
+  scale: 1.05;
+  transition: all .3s ease-in;
+  overflow: hidden;
+}
+.card{
+  transition: all .3s ease-in-out;
+
+}
+/* font-family: 'Nunito', sans-serif;
+ */
+ .price{font-family: 'Nunito', sans-serif;}
+ /* .right{
+  background-image: url("./components/images/child-model-hero.jpg");
+background-repeat: no-repeat;
+background-clip: padding-box;
+} */

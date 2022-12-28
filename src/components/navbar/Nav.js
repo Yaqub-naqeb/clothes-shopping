@@ -3,18 +3,18 @@ import { Link } from 'react-router-dom'
 
 const Nav = () => {
   return (
-    <nav className='flex justify-around  py-8 
-     px-[2rem]'>
+    <nav className='flex justify-around items-center  py-8 
+     px-[2rem] bg-red-300 fixed w-[100vw] z-50'>
       
       {/* name of website */}
-      <div className='font-bold '>shopify</div>
+      <div className='font-bold text-2xl '>shopify</div>
 {/*  pages name */}
       <nav className=' ' > 
-       <ul className='flex gap-4'>
+       <ul className='flex gap-8'>
         <Link to={`/`}>Home</Link>
         <Link to={'/newarrival'}>NewArrivals</Link>
         <Link to={'/discount'}>Discount</Link>
-        <li>newArrivals</li>
+        <Link to={'/Listofproducts'}>List of Products</Link>
        </ul>
       </nav>
       {/* icons */}

@@ -1,16 +1,17 @@
 import React from 'react'
-import Img from '../images/images.jfif'
 const DiscountCard = ({dt}) => {
   return (
-    <div>
+    <div className='card'>
       
-      <img src={`https://fronttask.techeyeco.com${dt.attachment}`} alt="" />
+     <div className='overflow-hidden'>
+     <img className='image' src={`https://fronttask.techeyeco.com${dt.attachment}`} alt="" />
+     </div>
       <div>
-        <p>name</p>
+        <p>{dt.productTypeName}</p>
       </div>
-      <div className='flex gap-5'>
-        <p className='text-red-400'>66$</p>
-        <p className=''> <del>177$</del> </p>
+      <div className='flex gap-8 items-center'>
+        <p className='text-[#c8102e] text-[19px] price'>${dt.price}</p>
+        <p className='opacity-70 text-[16px]'> <del>${dt.discount} </del> </p>
       </div>
 
 

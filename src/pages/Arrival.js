@@ -6,9 +6,9 @@ const Arrival = () => {
     const {data,isPending,error}=useFetch('https://fronttask.techeyeco.com/api/ClientSide/GetCurrentGroupProducts?GroupProductType=NewArrivals');
     console.log(data);
   return (
-  <div className='p-[4rem] bg-black'>
-    <h1 className='text-center'>sale</h1>
-      <div className='h-[100vh]  grid grid-cols-3 gap-x-5'>
+  <div className='  '>
+    <h1 className='text-center text-2xl font-medium pb-[8rem]'>sale</h1>
+      <div className='h-full  grid grid-cols-3 gap-x-5 gap-y-10'>
 
        
 

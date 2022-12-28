@@ -1,5 +1,5 @@
 import React from 'react'
-import NotFound from '../images/images.jfif'
+import NotFound from '../images/images.png'
 import { useFetch } from '../Hook/useFetch'
 
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
