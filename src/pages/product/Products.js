@@ -2,8 +2,8 @@ import React from 'react'
 
 const Products = () => {
   return (
-    <div>
-      <h1>You are inside the main page</h1>
+    <div className=''>
+      <h1 className=' text-center my-[20%] text-2xl'>You are inside the main page</h1>
     </div>
   )
 }
