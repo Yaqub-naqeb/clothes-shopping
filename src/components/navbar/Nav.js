@@ -17,7 +17,7 @@ const Nav = () => {
 <li><Link to={'/discount'}>Discount</Link></li>
 <li> <Link to={'/Listofproducts'}>List of Products</Link></li>
 
-<li><Link to={'/products'}>Products</Link></li>
+<li><Link to={'/products'}>Products <span className='text-[.7rem]'>(Task_B)</span></Link></li>
        </ul>
       </nav>
       {/* icons */}

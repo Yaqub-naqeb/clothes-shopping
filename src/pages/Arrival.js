@@ -25,7 +25,7 @@ const Arrival = () => {
     &&<Card dt={dt} key={dt.id}/>)
 }
     </div>
-text-center text-3xl items-center    {isPending&&<h1 className='  '>Loading...</h1>}
+    {isPending&&<h1 className=' text-center text-3xl items-center '>Loading...</h1>}
     {error&&<h1 className=' text-center text-3xl '>{error}</h1>}
 
   </div>
